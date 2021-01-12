@@ -59,7 +59,7 @@ namespace PhotoEnhancer
             mainForm.AddFilter(new TransformFilter(
                 "Отражение по вертикали",
                 size => size,
-                (point, size) => new Point(point.X - size.Width + 420, size.Height - 1 - point.Y)));
+                (point, size) => new Point(point.X, size.Height - 1 - point.Y)));
 
             mainForm.AddFilter(new TransformFilter<HorizontalTiltParameters>(
             "Скос по горизонтали", new HorizontalTiltTransformer()));
