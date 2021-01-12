@@ -15,7 +15,7 @@ namespace PhotoEnhancer
             return new[]
             {
                 new ParameterInfo() {
-                    Name = "Угол поворота в °",
+                    Name = "Угол скоса в °",
                     MinValue = -85,
                     MaxValue = 85,
                     DefaultValue = 0,
